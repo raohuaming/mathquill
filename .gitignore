@@ -6,3 +6,4 @@
 # dist
 /mathquill-*.tgz
 /mathquill.github.com
+package.js
