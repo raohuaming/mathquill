@@ -11,7 +11,7 @@ Package.onUse(function (api) {
   api.use('jquery', 'client');
   api.use( 'less' );
 
-  api.addFiles( [
+  api.addAssets( [
     'build/font/stixgeneral-bundle/STIXFontLicense2010.txt',
     'build/font/stixgeneral-bundle/stixgeneral-webfont.eot',
     'build/font/stixgeneral-bundle/stixgeneral-webfont.svg',
@@ -34,7 +34,7 @@ Package.onUse(function (api) {
     'build/font/Symbola.svg',
     'build/font/Symbola.ttf',
     'build/font/Symbola.woff'
-  ], 'client', { isAsset: true } );
+  ], 'client' );
 
   api.addFiles( [
     'build/mathquill.css',
