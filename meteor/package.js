@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Magic textboxes where you can type math as easily as writing",
-  version: "0.9.5",
+  version: "0.9.5-1",
   name: "huaming:mathquill",
   git: "https://github.com/mathquill/mathquill.git"
 });
